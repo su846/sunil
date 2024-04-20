@@ -1,0 +1,69 @@
+body{
+    background-image:url("s.jpg");
+    background: size 100%;
+    background-color:black;
+    
+}
+header {
+    background: linear-gradient(180deg,gold,gold);
+    text-align: center;
+    padding: 10px;
+}
+nav{
+    background-color:bisque;
+    padding: 3px;;
+    font-size:17px
+   }
+nav a{
+    text-decoration: none;
+    padding: 0px 20px;
+    text-align: center;
+
+}
+.m1{
+    text-align: center;
+}
+.hower{
+    transition: transform 0.3s ease-in-out;
+}
+.hower:hover{
+    background-color:white;
+    animation:b ;
+    
+}
+    
+.build{
+    color:black;
+    text-align: center;
+}
+
+.footer{
+    background-color: burlywood;
+    text-align: center;
+    padding:5px;
+}
+
+.footer-content{
+    justify-content: left;
+    text-align: left;
+}
+
+.final:hover{
+    background-color:red;
+    transition: all 0.3rem ease-in-out;
+
+}
+.final:hover:active{
+    transition:translateY(-10px);
+}
+.socialicons{
+    display: flex;
+    justify-content: right;
+}
+.socialicons a{
+    text-decoration: none;
+    padding:5px;
+    background-color:white;
+    margin:10px;
+    border-radius: 50%;
+}
